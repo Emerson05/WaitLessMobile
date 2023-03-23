@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.container{ 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+
+label{
+    color: #1C6750;
+}
+
+h2{
+    color: #1C6750;
+}
+
+.form-group{
+    padding-bottom: 2%;
+    
+}
+
+.form-group input{
+    border-radius: 10px;
+    background-color: #E28541;
+    opacity: 40%;
+    text-align: left;
+    
+}
+
+input:hover{
+    background-color: #E28541;
+    opacity: 30%;
+    
+   
+}
+body{
+    background-image: url(images/interior-do-restaurante\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#cadastro{
+    width: 30em;
+    border-radius: 22px;
+    background-color: #FFF;
+    height: 37em;
+   
+    
+}
+.btn{
+    border-radius: 10px;
+    background-color: #1C6750;
+    color: #FFFF;
+    margin-top: 5%;
+    width: 50%;
+    font-family: 'Montserrat';
+    
+    
+}
+
+
+
+.form{
+    margin-top:20%;
+      
+}
+.pbutton{
+    color: #1C6750;
+    margin-top: 3%;
+    font-size: 0.8em;
+}
+
+
+
+.btn:hover{
+    color: #FFF;
+    background-color: #1C6750;
+}
+
+#spanrodape{
+    color: #E28541;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.g-signin2{
+    
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+ 
+    
+   
+}
+
+.g-signin2,
+.g-signin2 .abcRioButton {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+ 
+}
+
+
+.paragrafo-central{
+    color: #1C6750;
+    margin-top: 5%;
+}
+
+#appleid-signin{
+    display:  flex;
+    position: static;
+ 
+    margin: 20px auto 0 auto;
+    height: 40px;
+    width: 70%;
+    text-align: center;
+   
+   
+}
+
+@media (max-width: 480px )
+{
+    #appleid-signin{
+       width: 210px;
+        
+        
+
+    }
+    .g-signin2,
+    .g-signin2 .abcRioButton {
+        width: auto;
+        
+        
+        display: flex;
+    
+    }
+    .g-signin2{
+        display: flex;
+        width: auto;
+    }
+
+    .g-signin2 .abcRioButton {
+       
+        width: auto;
+        display: flex;
+    
+    }
+
+
+}
+
+.psenha{
+    font-size: 70%;
+    text-align: right;
+    color: #1C6750;
+    margin-top: 10px;
+}
+
+.prodape{
+    color: #1C6750;
+    font-size: 15px;
+}
