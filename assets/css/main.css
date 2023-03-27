@@ -1,105 +1,165 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-    background: #1C6750;
-  }
-body{
 
-    background-color: #1C6750;
-    border: solid red 3px;
+*{
+  font-family: 'Montserrat';
+}
+
+body{
+ background-color: #1C6750;
+  
+}
+.nav-wrapper{
+  background-color:#1C6750 ;
+
+ 
+}
+
+.responsive-img{
+   
+   width: 100%;
+   height: 100%;
+   position: relative;
     
 }
 
-  
-  .topnav {
-    background-color: #1C6750;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    color: #E2E2E2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
- .nav-item:hover {
-    background-color: #E2E2E2;
-    color: #E24141;
-  }
-  
-.button:hover {
-    background-color: #E2E2E2;
-    color: #E24141;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-  
-  .button {
-    background-color: #1C6750;
-    color: #E2E2E2;
-    padding: 2px;
-    border-radius: 5px;
-    width: 7em;
-    color: #E2E2E2;
-    border-radius: 5px;
-    padding: 2px;
-    border-color: #E2E2E2;
-    margin-left: 20px;
-  }
-  
+.green1{
+  color: #1C6750;
+}
 
-.reserva {
-  border: 2px solid red;
+#row2{
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
   
-  margin-top: 4%;
-  font-size: 6vh;
+}
+.banner{
+ 
+  background-color: #E2E2E2;
+  text-align: center;
+  text-justify: auto;
+  height: 10em;
+  
+  
+  
+  justify-content: center;
+  border-radius: 10px;
+ 
+  display: flex;
+  flex-direction: row;
+}
+.texto{
   color: #E2E2E2;
-  width: 100%;
+}
+
+#menu-mobile{
+  background-color: #1C6750;
   
 }
-.card{
-    border: none;
-}
-b{
-    color: #E24141;
+
+.material-icons{
+  color: #E24141;
+  display: flex;
+  position: relative;
+  flex-direction: row;
 }
 
-#texto-reserve{
-    color: #E24141;
+#menu-mobile li a{
+  color: #E2E2E2;
 }
 
+#menu-mobile li:hover{
+  background-color: #E24141;
+  color: #E2E2E2;
+}
+
+.btn:hover{
+  background-color: #1C6750;
+
+}
+
+#menu-icon{
+  color: #E2E2E2;
+}
+
+#teste{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: 10%;
+  font-size: 3em;
+  
+ 
+}
+
+#fazer-reserva{
+  color: #E2E2E2;
+  background-color: #E24141;
+  border-radius: 20px;
+  font-size: 90%;
+  width: 70%;
+}
+#reserve{
+  color: #E24141;
+}
+
+
+
+@media screen and (max-width: 1100px){
+	 #teste{
+    font-size: 2.5em;
+   
+   }
+
+   .banner{
+    font-size: 10px;
+    height: 100%;
+    width: 110%;
+   
+    margin: auto;
+    padding: auto;
+   }
+
+  
 
  
-  @media only screen and (max-width: 768px) {
-    .topnav {
-      flex-direction: column;
-      align-items: center;
-    }
+}
+
+@media screen and (max-width: 1100px){
+  #teste{
+   font-size: 2.5em;
   
-    .topnav a {
-      padding: 10px;
-    }
+  }
+
+  .banner{
+   font-size: 10px;
+   height: 100%;
+   width: auto;
   
-    .button {
-      margin: 10px 0;
-    }
-    .reserva{
-        width: 100%;
-        font-size: 20px;
-    }
-   
-   
+   margin: auto;
+   padding: auto;
+  }
+
+
+
+}
+
+@media screen and (max-width: 480px){
+  #teste{
+   font-size: 2.5em;
+  
+  }
+
+  .banner{
+   font-size: 10px;
+   height: 100%;
+   width: 110%;
+  
+   margin: auto;
+   padding: auto;
+  }
+
+ 
+
+
 }
