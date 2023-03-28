@@ -1,0 +1,165 @@
+body{
+    background-image: url(/assets/images/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1C6750;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.waitless{
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+.linhas{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#text-cliente{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #E2E2E2;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
+}
+
+
+
+#text-empresa{
+    
+        font-family: 'Montserrat';
+        font-size: 25px;
+        color: #E2E2E2;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        text-justify: center;
+    
+    
+}
+
+
+
+
+.empresa{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(28, 103, 80, 0.2);
+    border-radius: 25px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(28, 103, 80, 0.2);
+    border-radius: 25px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.comecar{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(28, 103, 80, 0.51);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bemvindo{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 100%;
+    display: flex;
+    color: #1C6750;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.container{
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin: 3% auto;
+    padding: 30px;
+    background: #E2E2E2;
+    box-shadow: 4px 17px 41px rgba(0, 0, 0, 0.45);
+    border-radius: 22px;
+    height: 110vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 10% auto;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+  }
+}
+
+.prosseguir{
+    background-color: #1C6750;
+    color: #E2E2E2;
+    border-radius: 10px;
+    justify-content: center;
+    width: 40%;
+    height: 6%;
+    margin-top: 10%;
+   
+}
+.selected {
+    background-color: #1C6750;
+    color: #E2E2E2;
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+    .prosseguir {
+        width: 30%;
+        height: 4%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .prosseguir {
+        width: 50%;
+        height: 4%;
+        margin-top: 0;
+    }
+}
