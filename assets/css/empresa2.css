@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: #1C6750;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  background: #E2E2E2;
+  box-shadow: 4px 17px 41px rgba(0, 0, 0, 0.45);
+  border-radius: 22px;
+  padding: 60px;
+}
+
+#wait{
+    font-size:  3rem; ;
+    color: #6C6C6C;
+}
+span{
+    color:#1C6750
+}
+
+#personalize-empresa {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+  
+  color: #1C6750;
+  margin-bottom: 3rem;
+}
+
+#contenos {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(28, 103, 80, 0.51);
+  margin-bottom: 3rem;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 2rem;
+  background: #BAC9C5;
+  border-radius: 22px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+ 
+  border: none;
+ 
+  color: #1C6750;
+}
+
+label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  color: #1C6750;
+  margin-top: 5%;
+}
+
+#voltar{
+   
+    width: 10vh;
+    height: 5vh; 
+    background: #1C6750;
+    border-radius: 22px;
+    color: #BAC9C5;
+    margin-top: 5%;
+    width: 25%;
+}
+
+#continuar{
+   
+    width: 10vh;
+    height: 5vh;
+    
+    background: #1C6750;
+    border-radius: 22px;
+    color: #BAC9C5;
+    margin-top: 5%;
+    width: 25%;
+}
+
+
+
+

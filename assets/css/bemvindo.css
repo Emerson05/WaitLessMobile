@@ -1,3 +1,6 @@
+*{
+    font-family: 'Montserrat';
+}
 body{
     background-image: url(/assets/images/Vector\ 1.png);
     background-repeat: no-repeat;
@@ -159,7 +162,7 @@ body{
 @media only screen and (max-width: 576px) {
     .prosseguir {
         width: 50%;
-        height: 4%;
+        height: 4%;     
         margin-top: 0;
     }
 }
