@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/empresa2.css">
+    <link rel="stylesheet" href="assets/css/empresa3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
@@ -26,23 +26,23 @@
                     <h1 id="three"></h1>
                 </div>
 
-                <form action="empresa3.html">
+                <form action="">
                     
-                    <label  id="nomelabel" for="">Nome Da Empresa</label>
-                    <input type="text" id="nome-empresa" name="nome" required="required"><br>
-                    <label  id="telefonelabel" for="">Telefone</label>
-                    <input type="tel" id="telefone" name="telefone" required="required">
-                    <label  id="cnpjlabel" for="">CNPJ</label>
-                    <input type="text" onkeypress="return onlynumber();" id="cnpj" name="cnpj" required="required">
-                    <label  id="capacidadelabel" for="">Capacidade Total</label>
-                    <input type="number" id="capacidade" name="capacidade" required="required">
-                    <label  id="horariolabel" for="">Horario Funcionamento</label>
-                    <input type="text" id="horario" name="horario" required="required">
-                    <label id="diaslabel" for="">Dias De Funcionamento</label>
-                    <input type="text" id="dias" name="dias" required="required">
-                    <button type="button" id="voltar-empresa2">Voltar</button>
-                    <button type="submit"  id="continuar-empresa2">Continuar</button>
-                    <div class="result"></div>
+                    <label  id="ceplabel" for="">CEP</label>
+                    <input type="text" onkeypress="return onlynumber();" id="cep" name="cep" required="required"> <br>
+                    <label  id="logradourolabel" for="">Logradouro</label>
+                    <input type="text" id="logradouro" name="logradouro" required="required">
+                    <label  id="numerolabel" for="">Número</label>
+                    <input type="text" id="numero" name="numero" required="required">
+                    <label  id="cidadelabel" for="">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" required="required">
+                    <label  id="bairrolabel" for="">Bairro</label>
+                    <input type="text" id="bairro" name="bairro" required="required">
+                  
+                 
+
+                    <button type="button"  id="voltar-empresa3">Voltar</button>
+                    <button type="submit" id="continuar">Continuar</button>
 
                 </form>
 
@@ -52,7 +52,10 @@
         </div>        
 
     </div>
+
+   
     <script src="assets/js/camponumerico.js"></script>
-    <script src="assets/js/empresa2.js"></script>
+    <script src="assets/js/empresa3.js"></script>
+    
 </body>
 </html>

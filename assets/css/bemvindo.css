@@ -2,15 +2,37 @@
     font-family: 'Montserrat';
 }
 body{
-    background-image: url(/assets/images/Vector\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1C6750;
-    margin: 0;
-    padding: 0;
-   
+    background-image: url(/assets/images/fundo.png);
 }
 
+.barra{
+    display: inline-flex;
+  
+  }
+  #one{
+    width: 69.14px;
+    height: 11px;
+    background: #1C6750;
+    border-radius: 19px;
+  }
+  
+  #two{
+    position: relative;
+    width: 69.14px;
+    height: 11px;
+    left: 8px;
+    background:rgba(28, 103, 80, 0.2); ;
+    border-radius: 19px;
+  }
+  
+  #three{
+    position: relative;
+    width: 69.14px;
+    height: 11px;
+    left: 16px;
+    background: rgba(28, 103, 80, 0.2);
+    border-radius: 19px;
+  }
 
 .waitless{
     position: absolute;

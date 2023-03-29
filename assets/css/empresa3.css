@@ -25,7 +25,7 @@ body{
   width: 69.14px;
   height: 11px;
   left: 8px;
-  background: #1C6750;
+  background: rgba(28, 103, 80, 0.2);;
   border-radius: 19px;
 }
 
@@ -34,7 +34,7 @@ body{
   width: 69.14px;
   height: 11px;
   left: 16px;
-  background: rgba(28, 103, 80, 0.2);
+  background: #1C6750;
   border-radius: 19px;
 }
     
@@ -115,7 +115,7 @@ label {
   margin-top: 5%;
 }
 
-#voltar-empresa2{
+#voltar-empresa3{
   height: 5vh; 
   background: rgba(28, 103, 80, 0.51);
   border-radius: 22px;
@@ -124,7 +124,7 @@ label {
   width: 25%;
 }
 
-#continuar-empresa2{
+#continuar{
   height: 6vh;
   background: #1C6750;
   border-radius: 22px;

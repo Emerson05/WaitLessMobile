@@ -1,6 +1,8 @@
 const selectedClass = 'selected';
 const btnContinuar = document.getElementById('continuar');
 
+
+
 document.addEventListener('click', (event) => {
   const cliente = document.querySelector('.cliente');
   const clientetex = document.getElementById('text-cliente');
@@ -23,8 +25,11 @@ btnContinuar.addEventListener('click', () => {
   const empresa = document.querySelector('.empresa');
 
   if (cliente.classList.contains(selectedClass)) {
-    window.location.href = "tela1.html";
+    window.location.href = "cliente2.html";
   }else if(empresa.classList.contains(selectedClass)){
     window.location.href = "empresa2.html";
   }
 });
+
+
+

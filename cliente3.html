@@ -30,7 +30,7 @@
                 <form action="">
                     
                     <label  id="ceplabel" for="">CEP</label>
-                    <input type="text" id="cep" name="cep" required="required"> <br>
+                    <input type="text" onkeypress="return onlynumber();" id="cep" name="cep" required="required"> <br>
                     <label  id="logradourolabel" for="">Logradouro</label>
                     <input type="text" id="logradouro" name="logradouro" required="required">
                     <label  id="cidadelabel" for="">Cidade</label>
@@ -42,7 +42,7 @@
                     <label  id="complementolabel" for="">Complemento</label>
                     <input type="text" id="complemento" name="complemento" required="required">
 
-                    <button type="button" id="voltar">Voltar</button>
+                    <button type="button" id="voltar-cliente3">Voltar</button>
                     <button type="submit" id="continuar">Continuar</button>
 
                 </form>
@@ -53,5 +53,8 @@
         </div>        
 
     </div>
+
+    <script src="assets/js/camponumerico.js"></script>
+    <script src="assets/js/cliente3.js"></script>
 </body>
 </html>
