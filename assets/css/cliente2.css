@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url(fundo.png);
+  background-image: url(/assets/images/fundo.png);
 }
 .container {
   position: relative;
