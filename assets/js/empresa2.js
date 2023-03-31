@@ -1,6 +1,5 @@
 
 
-
 function clicks(){
     const btnvoltar2 = document.getElementById('voltar-empresa2')
 
@@ -9,12 +8,8 @@ function clicks(){
         window.location.href = "bemvindo.html";
     
     });
-
-   
-   
-
+  
 }
-
 
 clicks()
 
