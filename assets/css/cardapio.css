@@ -1,0 +1,96 @@
+*{
+    font-family: 'Montserrat';
+  
+}
+
+.topo{
+    font-size: 50px;
+    color: #E2E2E2;
+}
+
+input{
+    border-color: #E2E2E2;
+    color: #E2E2E2;
+    width: 60%;
+    height: 50px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    
+    
+}
+
+.card-title{
+    color: #1C6750;
+}
+
+#b1{
+    padding-bottom: 5%;
+}
+
+#star{
+    color: #E24141;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.gmap_canvas{
+    margin-top: 10%;
+}
+
+#btn-a{
+    background-color: #E24141;
+    color: #E2E2E2;
+    margin-top: 0;
+    width: 10%;
+    
+}
+
+p{
+    color: #1C6750;
+}
+
+span{
+    color: #1C6750;
+}
+
+svg{
+    color: #1C6750;
+}
+
+
+.frame{
+    width: 100%;
+    background-color: #E2E2E2;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+#car{
+    color: #E2E2E2;
+}
+
+
+@media (max-width: 575px)
+{
+ .topo{
+    font-size: 30px;
+ }
+
+ input{
+    width: 90%;
+    height: 50px;
+    background-color: #E2E2E2;
+
+ }
+
+    #btn-a{
+        width: 50%;
+        
+    }
+
+  
+}
